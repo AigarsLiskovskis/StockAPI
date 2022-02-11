@@ -39,8 +39,7 @@ function setColor(float $stockChange): string
         .container {
             display: flex;
             justify-content: space-evenly;
-            height: 80vh;
-            background: gray;
+            height: 75vh;
         }
 
         .left, .right {
