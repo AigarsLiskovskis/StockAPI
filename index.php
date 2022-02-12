@@ -15,7 +15,7 @@ $valueMSTF = ($client->quote("MSFT")->getDp());
 $valueAMZN = ($client->quote("AMZN")->getDp());
 $valueTSLA = ($client->quote("TSLA")->getDp());
 
-function setColor(float $stockChange): string
+function setColor(float $stockChange = null): string
 {
     if ($stockChange < 0) {
         return "red";
